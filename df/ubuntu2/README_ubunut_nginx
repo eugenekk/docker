@@ -1,0 +1,15 @@
+도커 이미지 build(nginx 설치해서)
+dockerfile에 
+RUN apt install nginx 
+
+$ docker build --tag 08youjin12/ubuntu_nginx .
+
+docker hub로 push
+docker push 08youjin12/ubuntu_nginx 
+(desc : 생성스크립트의 github 주소)
+
+docker build script를 github에 push
+README 파일 적기
+$ git add Dockerfile
+$ git commit -m "workshop_day2 ubunut_nginx"
+$ git push
